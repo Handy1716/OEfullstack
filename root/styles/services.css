@@ -1,0 +1,19 @@
+/* Táblázat stílusok */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 3px solid black;
+}
+
+/* Fejlécek és cellák */
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+/* Sor kiemelése egérmutatóval */
+tr:hover {
+    background-color: #ffebeb;
+}

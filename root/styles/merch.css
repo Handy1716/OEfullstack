@@ -1,0 +1,36 @@
+/* Kosárba rakás gombok */
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+input[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+/* Input mezők */
+input[type="number"] {
+    width: 40px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Képek */
+img {
+    border-radius: 10px;
+    border: 3px solid #0077cc;
+    transition: filter 0.3s;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
