@@ -1,0 +1,25 @@
+<form>
+    <label for="email">Email cím:</label><br>
+    <input type="email" id="email" name="email" placeholder="Adja meg az email címét"><br>
+    
+    <label>Kérek értesítést:</label><br>
+    <input type="radio" id="ertesites_igen" name="ertesites" value="igen">
+    <label for="ertesites_igen">Igen</label><br>
+    <input type="radio" id="ertesites_nem" name="ertesites" value="nem">
+    <label for="ertesites_nem">Nem</label><br>
+    
+    <label for="tipus">Bejelentés típusa:</label><br>
+    <select id="tipus" name="tipus" required>
+        <option value="altalanos">Általános bejelentés</option>
+        <option value="pozitiv">Pozitív véleményt kívánok tenni</option>
+        <option value="panasz">Panaszt kívánok tenni</option>
+    </select><br>
+    
+    <label for="subject">Üzenet tárgya:</label><br>
+    <input type="text" id="subject" name="subject" placeholder="Adja meg az üzenet tárgyát"><br>
+    
+    <label for="message">Üzenet:</label><br>
+    <textarea id="message" name="message" rows="5" placeholder="Írja be az üzenetét"></textarea><br>
+    
+    <button type="submit">Elküldés</button>
+</form>
